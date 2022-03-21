@@ -25,7 +25,7 @@ while not end_of_game:
       # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
       if letter == guess:
           display[position] = letter
-  if "_" not in display:
+  if "_" not in display: #checks the list using in
     end_of_game = True
     print("You win.")
   print(display)
